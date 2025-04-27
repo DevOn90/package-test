@@ -1,0 +1,36 @@
+{
+  "name": "@devon90/ui-lib",
+  "version": "1.0.0",
+  "description": "A library for Angular components",
+  "author": "me",
+  "email": "me@example.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevOn90/package-test.git"
+  },
+  "homepage": "https://github.com/DevOn90/package-test#readme",
+  "keywords": [
+    "angular",
+    "library",
+    "components"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/DevOn90/package-test/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": "^19.2.0",
+    "@angular/core": "^19.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20.19.1",
+    "npm": ">=10.8.2"
+  }
+}
